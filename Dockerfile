@@ -1,5 +1,5 @@
 FROM ubuntu:latest
-ARG url=https://archive.chirpmyradio.com/chirp_next/next-20240901/chirp-20240901-py3-none-any.whl
+ARG url=https://archive.chirpmyradio.com/chirp_next/next-20240905/chirp-20240905-py3-none-any.whl
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update
